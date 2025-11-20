@@ -30,7 +30,6 @@ venv.bak/
 # ARCHIVOS DE PRUEBA Y LOGS
 # =========================
 .coverage
-htmlcov/
 .cache/
 pytest_cache/
 nosetests.xml
