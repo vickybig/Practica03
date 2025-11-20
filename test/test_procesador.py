@@ -1,15 +1,15 @@
 import unittest
 import sys
-import os
+import os    # ← ESTE IMPORT ES OBLIGATORIO
+import csv
+
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-import unittest
-import csv
 from src.procesador import Analizador, _parse_float
 from collections import defaultdict
 
-
 CSV_PATH = os.path.join("datos", "sri_ventas_2024.csv")
+
 
 class TestAnalizador(unittest.TestCase):
     @classmethod

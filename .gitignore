@@ -1,128 +1,81 @@
-# ============================
-# ARCHIVOS Y CARPETAS DE PYTHON
-# ============================
-
+# ARCHIVOS DE PYTHON
+# =========================
 __pycache__/
 *.py[cod]
-*$py.class
-
-# Entornos virtuales
-venv/
-env/
-.venv/
-.env/
-
-# Archivos de configuración de Python
 *.pyo
 *.pyd
 *.pdb
-
-# Distribución / empaquetado
-build/
-dist/
-*.egg-info/
+*.so
 *.egg
+*.egg-info/
+dist/
+build/
 .eggs/
-MANIFEST
 pip-wheel-metadata/
+*.manifest
+*.spec
 
-# Archivos de caché
-*.cache
-*.pytest_cache/
+# =========================
+# ENTORNOS VIRTUALES
+# =========================
+venv/
+.env/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# ARCHIVOS DE PRUEBA Y LOGS
+# =========================
 .coverage
 htmlcov/
-.tox/
-.nox/
-
-# Logs
-*.log
-logs/
-
-# Datos temporales
-tmp/
-temp/
-*.tmp
-*.bak
-
-# ============================
-# EDITORES Y ENTORNOS DE DESARROLLO
-# ============================
-
-# Visual Studio Code
-.vscode/
-.code-workspace
-
-# Visual Studio (proyectos .NET o mixtos)
-*.user
-*.suo
-*.sln.docstates
-*.vsp
-*.vspscc
-*.vssscc
-*.ncb
-*.opensdf
-*.sdf
-*.VC.db
-*.VC.VC.opendb
-.vs/
-
-# ============================
-# SISTEMAS OPERATIVOS
-# ============================
-
-# macOS
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Windows
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-
-# Linux
-*~
-.nfs*
-
-# ============================
-# ARCHIVOS DE PRUEBAS Y DATOS
-# ============================
-
-# Pytest y coverage
-.pytest_cache/
-.coverage
-coverage.xml
+.cache/
+pytest_cache/
 nosetests.xml
+coverage.xml
 *.cover
-*.coverage
-
-# Archivos de prueba o ejemplo
-test_output/
-tests/__pycache__/
-tests/*.log
-
-# ============================
-# OTROS
-# ============================
-
-# Archivos de dependencias locales
-*.sqlite3
-*.db
-
-# Archivos de configuración sensibles
-config.ini
-*.env
-.env.local
-.env.dev
-.env.prod
-
-# Archivos de notebooks
-.ipynb_checkpoints/
-*.ipynb~
-
-# Archivos generados por herramientas
+*.log
+*.out
+*.tmp
+*.err
+.tox/
 .mypy_cache/
 .dmypy.json
 .pyre/
-.pytype/
+.pytest_cache/
+reports/
+
+# =========================
+# ARCHIVOS DE VS CODE
+# =========================
+.vscode/
+.history/
+*.code-workspace
+
+# =========================
+# SISTEMAS OPERATIVOS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# ARCHIVOS DE DATOS TEMPORALES
+# =========================
+*.csv~
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# =========================
+# CONFIGURACIÓN PERSONAL O DE DEPLOY
+# =========================
+.env.local
+.env.production
+config.json
+credentials.json
+venv/
+__pycache__/

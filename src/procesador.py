@@ -81,7 +81,7 @@ class Analizador:
 
     def ventas_por_provincia(self, nombre: str) -> float:
         """
-        Retorna el total de una provincia (case-insensitive).
+        Retorna el total de una provincia
         """
         if not nombre:
             return 0.0
@@ -96,7 +96,7 @@ class Analizador:
 
     def exportaciones_totales_por_mes(self) -> Dict[str, float]:
         """
-        Suma EXPORTACIONES agrupadas por MES (o PERIODO si MES no está).
+        Suma EXPORTACIONES agrupadas por MES 
         Retorna dict {mes: total_exportaciones}.
         """
         acc = defaultdict(float)
